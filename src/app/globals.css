@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #EBEEF2;
+}
+
+.no-scrollbar::-webkit-scrollbar { 
+  display: none; 
+} 
+
+*, html {
+  scroll-behavior: smooth ;
+}
